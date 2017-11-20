@@ -12,7 +12,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <kotlin.version>1.1.0</kotlin.version>
+        <kotlin.version>1.1.60</kotlin.version>
         <junit.version>4.12</junit.version>
         <snippetsDirectory>${project.build.directory}/generated-snippets</snippetsDirectory>
     </properties>
@@ -29,17 +29,17 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
-            <version>1.5.1.RELEASE</version>
+            <version>1.5.8.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-rest</artifactId>
-            <version>1.5.1.RELEASE</version>
+            <version>1.5.8.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
-            <version>1.4.193</version>
+            <version>1.4.196</version>
             <scope>runtime</scope>
         </dependency>
 
@@ -62,12 +62,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <version>1.5.1.RELEASE</version>
+            <version>1.5.8.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
-            <version>1.5.1.RELEASE</version>
+            <version>1.5.8.RELEASE</version>
         </dependency>
 
         <dependency>
